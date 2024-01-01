@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//First .net core application
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<PizzaContext>(options =>
